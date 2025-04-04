@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #8ab1b8;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#recommendationsContainer {
+    margin-top: 10px;
+}
+
+.recommendation {
+    background: #3e9abb;
+    border: 3px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.rating-section {
+    margin-top: 10px;
+    background-color: rgb(222, 215, 18);
+    display: inline; 
+    padding: 5px 5px;
+}
+#recommendBtn {
+    background-color:#005673; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#productInput {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #005f73;
+    border-radius: 5px;
+}
+
+#recommendBtn:hover {
+    background-color: #005f73;
+}
+
+.btn {
+    background-color: #005673;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #005f73;
+}
