@@ -20,3 +20,15 @@ Frontend: HTML/CSS
 Database: SQLite (local) / Cloud (for deployment)
 
 ML: Scikit-learn, Pandas, NumPy
+
+Project Structure:
+
+├── app.py                        # Main Flask app
+├── templates/ index.html         # HTML templates
+├── static/ style.css,script.js   # CSS and assets
+├── products_data.xlsx            # Product dataset
+├── ratings.db                    # User ratings database
+├── utils/                        # Recommendation logic
+├── requirements.txt              # Python dependencies
+└── README.md                     # This file
+
